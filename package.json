@@ -1,0 +1,20 @@
+{
+  "name": "fueltrack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FuelTrack personal fuel monitor — two-file Railway application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "build": "node index.js --build",
+    "test": "node index.js --test",
+    "schema": "node index.js --schema"
+  },
+  "engines": { "node": ">=22 <27" },
+  "dependencies": {
+    "decimal.js": "10.6.0",
+    "esbuild": "0.25.12",
+    "pngjs": "7.0.0"
+  }
+}
